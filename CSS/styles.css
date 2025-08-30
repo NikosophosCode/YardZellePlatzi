@@ -61,7 +61,7 @@ main .logo-container img {
 form {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     font-weight: 300;
 }
@@ -69,7 +69,8 @@ form {
 .form-container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-input, form-button {
@@ -82,9 +83,11 @@ form {
     border-radius: 8px;
     border: none;
     margin-top: 16px;
-    font-family: "Roboto";
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
     font-size: 2rem;
     color: var(--text-input-field);
+    cursor: pointer; 
 }
 
 .form-input {
@@ -99,4 +102,48 @@ form {
 .form-label {
     font-size: 1.6rem;
     color: var(--dark-color);
+}
+
+.email-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.email-icon {
+    display: flex;
+    background: #c7c7c75e;
+    border-radius: 90px;
+    width: 14rem;
+    height: 13rem;
+    justify-content: center;
+}
+
+.login-button {
+    width: 100%;
+    max-width: 400px;
+    height: 5rem;
+    background-color: var(--second-color);
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--text-input-field);
+    cursor: pointer; 
+}
+
+.email-resend {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    color: var(--dark-color);
+}
+
+.email-resend a {
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: 700;
 }
