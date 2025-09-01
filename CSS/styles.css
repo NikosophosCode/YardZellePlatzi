@@ -19,7 +19,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;    
-    height: 100vh;
     background-color: var(--background-color);
     margin-top: 100px;
 }
@@ -28,6 +27,7 @@ main .logo-container {
     justify-content: center;
     width: 100%;
     height: auto;
+    margin-bottom: 80px;
 }
 
 main .logo-container img {
@@ -40,13 +40,11 @@ main .logo-container img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .form-title h2 {
     display: inline-block;
-    margin-bottom: 0;
-    margin-top: 32px;
     font-size: 2.5rem;
     color: var(--dark-color);
     margin-bottom: 0.5rem;
@@ -101,7 +99,7 @@ form {
 
 .form-label {
     font-size: 1.6rem;
-    color: var(--dark-color);
+    font-weight: 700;
 }
 
 .email-container {
@@ -147,3 +145,33 @@ form {
     text-decoration: none;
     font-weight: 700;
 }
+
+.signup-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.signup-container .secondary-button {
+    width: 90%;
+    max-width: 400px;
+    height: 5rem;
+    border: 2px solid var(--second-color);
+    border-radius: 8px;
+    background-color: transparent;
+    margin-top: 48px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--second-color);
+    cursor: pointer; 
+}
+
+.signup-container .secondary-button a {
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
