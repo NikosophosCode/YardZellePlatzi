@@ -118,7 +118,7 @@ Proyecto educativo. Añade una licencia (ej. MIT) si lo publicas.
 - Curso Frontend Developer (Platzi).
 - Imágenes temporales: Pexels (usadas como placeholders).
 
-## 💡 Siguientes Pasos Recomendados
+## 💡 Siguientes Pasos para mejorar
 
 1. Centralizar estilos de navegación reutilizable.
 2. Extraer estilos inline de `index.html` y `recovery.html` a archivo dedicado.
@@ -128,7 +128,3 @@ Proyecto educativo. Añade una licencia (ej. MIT) si lo publicas.
    - Filtrar productos.
 4. Simular datos desde un JSON local (mock API).
 5. Preparar migración a framework (React / Vue) si se requiere escalabilidad.
-
----
-
-¿Listo para la siguiente fase? Empieza creando un archivo `script.js` y asociándolo a `index.html` para manejar interacción del botón de carrito
